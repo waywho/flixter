@@ -14,3 +14,9 @@
 //= require jquery_ujs
 //= require bootstrap-sprockets
 //= require_tree .
+
+// Loads all Bootstrap javascripts
+//= require bootstrap
+
+
+//= require jquery-ui
