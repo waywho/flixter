@@ -68,10 +68,45 @@
 
 <div id="footer">
   <div class="container">
-    <b>Teachers</b>
-    <br />
-    <%= link_to 'Teach a Course', new_instructor_course_path %>
-  </div>
+    <div class = "col-xs-12 col-sm-3">
+      <b>Teachers</b>
+      <br />
+      <%= link_to 'Teach a Course', new_instructor_course_path %>
+      <br />
+      <%= link_to 'My Dashboard', dashboard_path %>
+    </div>
+    <div class = "col-xs-12 col-sm-3">
+      <b>About</b>
+      <br />
+      <%= link_to 'Team', '#' %>
+      <br />
+      <%= link_to 'Careers', '#' %>
+      <br />
+      <%= link_to 'Privacy Policy' , '#' %>
+    </div>
+    <div class = "col-xs-12 col-sm-3">
+      <b>Contact</b>
+      <br />
+      weihsi.hu@gmail.com
+      <br />
+      2 Lala Land
+      <br />
+      London, UK, MA8 2GD
+    </div>
+    <div class = "col-xs-12 col-sm-3">
+      <b>Social</b>
+      <br />
+      <br />
+      <%= link_to 'https://github.com/waywho' do %>
+      <%= image_tag 'github.png', :class => 'social-button' %>
+      <% end %>
+      <%= link_to 'https://www.linkedin.com/in/weihsihu' do %>
+      <%= image_tag 'linkedin.png', :class => 'social-button' %>
+      <% end %>
+      <%= link_to 'https://twitter.com/waywho' do %>
+      <%= image_tag 'twitter.png', :class => 'social-button' %>
+      <% end %>
+  </div>    
 </div>
 
 </body>
